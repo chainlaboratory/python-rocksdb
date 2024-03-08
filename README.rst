@@ -54,7 +54,7 @@ Quick Usage Guide
 
 .. code-block:: pycon
 
-    $ pip install python3-rocksdb
+    $ pip install py3-rocksdb
 
     >>> import rocksdb
     >>> db = rocksdb.DB("test.db", rocksdb.Options(create_if_missing=True))
