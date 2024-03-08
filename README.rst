@@ -4,9 +4,12 @@ The original pyrocksdb (https://pypi.python.org/pypi/pyrocksdb/0.4) has not been
 
 
 
-    $ pip3 install virtualenv 
+    $ pip3 install virtualenv
+
     $ virtualenv venv
+
     $ source venv/bin/activate
+
     $ pip install py3-rocksdb
 
     >>> import rocksdb
