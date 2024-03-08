@@ -1,6 +1,7 @@
 Note
 =========
-The original pyrocksdb (https://pypi.python.org/pypi/pyrocksdb/0.4) has not been updated for long time. I update pyrocksdb to support the latest rocksdb. Please open issues in github if you have any problem.
+Dieser Fork ist aus (https://pypi.python.org/pypi/pyrocksdb/0.4) abgeleitet. Im Original mit 'pip install python-rocksdb' habe ich eine 'wheel'-Fehlermeldung erhalten.
+Deshalb habe ich das Original neu gepackt und auf https://pypi.org/project/py3-rocksdb veröffentlicht
 
 
 
@@ -10,7 +11,9 @@ The original pyrocksdb (https://pypi.python.org/pypi/pyrocksdb/0.4) has not been
 
     $ source venv/bin/activate
 
-    $ pip install py3-rocksdb
+    $ pip3 install py3-rocksdb
+
+    $ python3
 
     >>> import rocksdb
     >>> db = rocksdb.DB("test.db", rocksdb.Options(create_if_missing=True))
